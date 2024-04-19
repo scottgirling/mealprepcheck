@@ -1,48 +1,115 @@
-#navigation {
-    display: flex;
-    margin: 12px;
-    border: 1px solid pink;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 10px;
+body {
+    font-family: 'Coiny';
 }
 
-#navigation img {
-    width: 250px;
-    border-radius: 10px;
+/* navigation styles */
+
+#navigation {
+    display: flex;
+    background-color: #b8dbd3;
+    color: #5a5255
+}
+
+#logo {
+    font-family: 'Coiny';
+    font-size: 26px;
+    margin-left: 12px;
 }
 
 .navbar {
     display: flex;
-    border: 1px solid red;
-    padding-left: 0;
+    margin: 0 auto;
+    height: 100%;
+    padding-left: 200px;
 }
 
 .navbar li {
     display: inline-block;
     padding: 10px 20px;
-    margin: 0 10px;
-    font-size: 20px;
-    border: 1px solid black;
-    border-radius: 10px;
+    margin: auto 10px;
+    font-size: 16px;
 }
 
-button {
-    height: 60px;
-    padding: 20px;
-    border: none;
-    background-color: rgb(62, 62, 198);
-    color: white;
-    border-radius: 10px;
-    font-size: 20px;
-    margin: auto 0;
+#cta-nav-button {
+    color: black;
+    padding-left: 300px;
+    font-size: 18px;
 }
+
+/* cta section styles */
 
 #cta {
-    margin: 12px; 
+    background-color: #ffcce1;
+    height: 2000px;
 }
 
-#cta img {
+#cta-top {
+    display: flex;
+    border: 1px solid black;
+}
+
+#cta-img {
+    display: inline-block;
+    width: 50%;
+}
+
+#cta-img img {
     width: 100%;
+    padding: 12px;
 }
 
+#cta-text {
+    display: inline-block;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.cta-text {
+    font-size: 30px;
+    margin: 0;
+    color: #8279bd;
+    padding: 12px;
+}
+
+/* type of compare option */
+
+.compare-option {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+#option-r2g {
+    display: inline-block;
+    text-align: center;
+}
+
+#option-recipe-kit {
+    display: inline-block;
+    text-align: center;
+}
+
+.option-image {
+    padding: 12px;
+    height: 300px;
+    width: 500px;
+}
+
+.option-image img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.option-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+#cta button {
+    border: 2px solid green;
+    background-color: #faffc7;
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+}

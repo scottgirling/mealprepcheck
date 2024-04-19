@@ -3,24 +3,54 @@
     <head>
         <title>mealprepcheck.com</title>
         <link rel="stylesheet" href="./resources/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div id="navigation">
-            <img src="./resources/images/logo.jpg">
+            <div id="logo">
+                <p>Meal Prep Check</p>
+            </div>
             <nav>
                 <ul class="navbar">
                     <li>How It Works</li>
                     <li>Discount Codes</li>
                     <li>Blog</li>
                     <li>FAQs</li>
+                    <li><a id="cta-nav-button">Compare Now</a></li>
                 </ul>
             </nav>
-            <button>Compare Now</button>
         </div>
 
         <div id="cta">
-           <img src="./resources/images/cta-template2.jpeg">
+            <div id="cta-top">
+                <div id="cta-img">
+                    <img src="./resources/images/cta-banner.jpg">
+                </div>
+                <div id="cta-text">
+                    <p class="cta-text" id="left">Enjoy cooking but looking to save time & money?</p>
+                    <p class="cta-text" id="right">As well as cut down on your food waste?</p>
+                    <p class="cta-text" id="center">What will you compare first?</p>
+                    <button>Let's Compare</button>
+                </div>
+            </div>
+                
+           <div class="compare-option">
+                <div id="option-r2g">
+                    <div class="option-image">
+                        <img src="./resources/images/cta-img-mealprep.jpg">
+                    </div>
+                        <button class="option-title">Compare ready-to-eat</button>
+                </div>
+                <div id="option-recipe-kit">
+                    <div class="option-image">
+                        <img src="./resources/images/cta-img-recipekit.jpg">
+                    </div>
+                        <button class="option-title">Compare recipe kits</button>
+                </div>
+           </div>
         </div>
     </body>
 </html>
