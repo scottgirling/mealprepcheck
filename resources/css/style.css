@@ -6,7 +6,7 @@ body {
 
 #navigation {
     display: flex;
-    background-color: #034694;
+    /* astros navy */ background-color: #002D62;
     color: white;
 }
 
@@ -38,8 +38,20 @@ body {
 /* type of compare option */
 
 #cta {
-    background-color: #6CB4EE;
+    /* cambridge blue */ background-color: #A3C1AD;
     height: 1000px;
+}
+
+#intro {
+    background-color: #6CB4EE;
+    color: white;
+}
+
+#intro p {
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    font-size: 24px;
 }
 
 .compare-choice {
