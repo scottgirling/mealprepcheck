@@ -6,8 +6,8 @@ body {
 
 #navigation {
     display: flex;
-    background-color: #b8dbd3;
-    color: #5a5255
+    background-color: #034694;
+    color: white;
 }
 
 #logo {
@@ -31,51 +31,28 @@ body {
 }
 
 #cta-nav-button {
-    color: black;
     padding-left: 300px;
     font-size: 18px;
 }
 
-/* cta section styles */
+/* type of compare option */
 
 #cta {
-    background-color: #ffcce1;
-    height: 2000px;
+    background-color: #6CB4EE;
+    height: 1000px;
 }
 
-#cta-top {
-    display: flex;
-    border: 1px solid black;
-}
-
-#cta-img {
-    display: inline-block;
-    width: 50%;
-}
-
-#cta-img img {
-    width: 100%;
-    padding: 12px;
-}
-
-#cta-text {
-    display: inline-block;
-    border: 1px solid red;
+.compare-choice {
+    color: white;
+    font-size: 48px;
     text-align: center;
-}
-
-.cta-text {
-    font-size: 30px;
     margin: 0;
-    color: #8279bd;
-    padding: 12px;
+    padding: 12px 0;
 }
-
-/* type of compare option */
 
 .compare-option {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 12px;
 }
 
@@ -112,4 +89,34 @@ body {
     color: black;
     padding: 12px;
     border-radius: 10px;
+}
+
+/* cta section styles */
+
+#cta-top {
+    display: flex;
+    border: 1px solid black;
+}
+
+#cta-img {
+    display: inline-block;
+    width: 50%;
+}
+
+#cta-img img {
+    width: 100%;
+    padding: 12px;
+}
+
+#cta-text {
+    display: inline-block;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.cta-text {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    padding: 12px;
 }
