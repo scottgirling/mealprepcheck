@@ -6,6 +6,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/121245de7a.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -15,11 +17,11 @@
             </div>
             <nav>
                 <ul class="navbar">
-                    <li>How It Works</li>
-                    <li>Discount Codes</li>
-                    <li>Blog</li>
-                    <li>FAQs</li>
-                    <li><a id="cta-nav-button">Compare Now</a></li>
+                    <li><a id="no-dec" href="./howitworks.html">How It Works</a></li>
+                    <li><a id="no-dec" href="./discountcodes.html">Discount Codes</a></li>
+                    <li><a id="no-dec" href="./blog.html">Blog</a></li>
+                    <li><a id="no-dec" href="./faqs.html">FAQs</a></li>
+                    <li id="last-button"><a id="cta-nav-button">Check Now</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,19 +34,24 @@
                 <p class="compare-choice">What will you check first?</p>
             </div>
             <div class="compare-option">
-                <div id="option-r2g">
+                <div id="option-r2g" class="option">
                     <div class="option-image">
                         <img src="./resources/images/cta-img-mealprep.jpg">
                     </div>
-                        <button class="option-title">Check Reheat & Eat</button>
+                        <button class="option-title">Reheat & Eat</button>
                 </div>
-                <div id="option-recipe-kit">
+                <div id="option-recipe-kit" class="option">
                     <div class="option-image">
                         <img src="./resources/images/cta-img-recipekit.jpg">
                     </div>
-                        <button class="option-title">Check Recipe Kits</button>
+                        <button class="option-title">Recipe Kits</button>
                 </div>
             </div>
+
+            <div>
+                <a id="no-dec" href="#cta-top"><i id="arrow" class="fa-solid fa-arrow-down"></i></a>
+            </div>
+
             <div id="cta-top">
                 <div id="cta-img">
                     <img src="./resources/images/cta-banner.jpg">

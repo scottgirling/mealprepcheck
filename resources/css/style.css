@@ -1,5 +1,6 @@
 body {
-    font-family: 'Coiny';
+    margin: 0;
+    font-family: "Ubuntu Sans", sans-serif;
 }
 
 /* navigation styles */
@@ -11,9 +12,9 @@ body {
 }
 
 #logo {
-    font-family: 'Coiny';
     font-size: 26px;
     margin-left: 12px;
+    font-family: 'Coiny';
 }
 
 .navbar {
@@ -30,8 +31,27 @@ body {
     font-size: 16px;
 }
 
+li:hover {
+    background-color: #A3C1AD;
+    height: 78%;
+    display: flex;
+    align-items: center;
+}
+
+li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#logo a:visited {
+    color: white;
+}
+
+#last-button {
+    margin-left: 300px;
+}
+
 #cta-nav-button {
-    padding-left: 300px;
     font-size: 18px;
 }
 
@@ -39,7 +59,7 @@ body {
 
 #cta {
     /* cambridge blue */ background-color: #A3C1AD;
-    height: 1000px;
+    font-family: "Ubuntu Sans", sans-serif;
 }
 
 #intro {
@@ -49,7 +69,7 @@ body {
 
 #intro p {
     margin: 0;
-    padding: 12px;
+    padding: 16px;
     text-align: center;
     font-size: 24px;
 }
@@ -66,6 +86,13 @@ body {
     display: flex;
     justify-content: center;
     padding: 12px;
+}
+
+.option {
+    background-color: white;
+    margin: 0 12px;
+    padding: 12px;
+    border-radius: 16px;
 }
 
 #option-r2g {
@@ -87,7 +114,8 @@ body {
 .option-image img {
     height: 300px;
     width: 500px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 .option-title {
@@ -96,11 +124,34 @@ body {
 }
 
 #cta button {
-    border: 2px solid green;
-    background-color: #faffc7;
-    color: black;
+    border: none;
+    background-color: #002D62;
+    color: white;
     padding: 12px;
     border-radius: 10px;
+    font-family: "Ubuntu Sans", sans-serif;;
+}
+
+#arrow {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin: 18px auto;
+    margin-bottom: 32px;
+    padding: 8px;
+    border: 1px solid white;
+    width: 1.75%;
+    border-radius: 60%;
+}
+
+#arrow:hover {
+    color: #A3C1AD;
+    background-color: white;
+}
+
+#no-dec {
+    text-decoration: none;
 }
 
 /* cta section styles */
@@ -108,6 +159,8 @@ body {
 #cta-top {
     display: flex;
     border: 1px solid black;
+    background-color: grey;
+    height: 1000px;
 }
 
 #cta-img {
