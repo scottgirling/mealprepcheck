@@ -21,7 +21,7 @@ body {
     display: flex;
     margin: 0 auto;
     height: 100%;
-    padding-left: 200px;
+    padding-left: 250px;
 }
 
 .navbar li {
@@ -77,6 +77,8 @@ li a:visited {
 .compare-choice {
     color: white;
     font-size: 48px;
+    font-weight: 400;
+    font-family: 'Coiny';
     text-align: center;
     margin: 0;
     padding: 12px 0;
@@ -129,7 +131,7 @@ li a:visited {
     color: white;
     padding: 12px;
     border-radius: 10px;
-    font-family: "Ubuntu Sans", sans-serif;;
+    font-family: "Ubuntu Sans", sans-serif;
 }
 
 #arrow {
@@ -157,10 +159,17 @@ li a:visited {
 /* cta section styles */
 
 #cta-top {
+    padding: 32px 0;
+    /* air superiority blue */ background-color: #72A0C1;
     display: flex;
-    border: 1px solid black;
-    background-color: grey;
-    height: 1000px;
+    justify-content: center;
+}
+
+#border {
+    display: flex;
+    border-radius: 16px;
+    width: 80%;
+    background-color: #034694;
 }
 
 #cta-img {
@@ -170,18 +179,42 @@ li a:visited {
 
 #cta-img img {
     width: 100%;
-    padding: 12px;
+    height: 100%;
+    border-radius: 16px;
 }
 
 #cta-text {
     display: inline-block;
-    border: 1px solid red;
-    text-align: center;
+    padding: 24px;
+    width: 50%;
 }
 
 .cta-text {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     color: white;
     padding: 12px;
+}
+
+#reason-one {
+    display: flex;
+}
+
+#reason-one i {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.reason-title {
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#cta-text button {
+    display: block;
+    margin: 24px auto;
 }
