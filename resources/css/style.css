@@ -88,6 +88,7 @@ li a:visited {
     display: flex;
     justify-content: center;
     padding: 12px;
+    padding-bottom: 0;
 }
 
 .option {
@@ -134,13 +135,16 @@ li a:visited {
     font-family: "Ubuntu Sans", sans-serif;
 }
 
+#next-section {
+    padding: 12px;
+}
+
 #arrow {
     color: white;
     font-size: 24px;
     display: flex;
     justify-content: center;
-    margin: 18px auto;
-    margin-bottom: 32px;
+    margin: 24px auto;
     padding: 8px;
     border: 1px solid white;
     width: 1.75%;
@@ -170,6 +174,7 @@ li a:visited {
     border-radius: 16px;
     width: 80%;
     background-color: #034694;
+    margin: 24px 0;
 }
 
 #cta-img {
@@ -190,31 +195,56 @@ li a:visited {
 }
 
 .cta-text {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
     color: white;
-    padding: 12px;
+    padding: 10px;
 }
 
-#reason-one {
+#reasons-text {
     display: flex;
 }
 
-#reason-one i {
+#reasons-text i {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .reason-title {
-    font-size: 26px;
+    font-size: 30px;
     color: white;
     text-align: center;
     margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 #cta-text button {
     display: block;
-    margin: 24px auto;
+    margin: 12px auto;
+    padding: 12px;
+    font-size: 24px;   
+    border: none;
+    background-color: #002D62;
+    color: white;
+    border-radius: 10px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+#reasons {
+    width: 95%;
+    margin: auto;
+    margin-top: 24px;
+}
+
+#tick {
+    margin-left: 12px;
+}
+
+/* comparison section */
+
+#comparison {
+    background-color: #FFB996;
+    height: 1000px;
 }
