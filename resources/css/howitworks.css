@@ -1,0 +1,49 @@
+#howitworks {
+    background-color: #A1CCD1;
+}
+
+#howitworks p {
+    padding: 12px;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 65%;
+}
+
+.topline {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#howitworks button {
+    display: block;
+    margin: auto;
+    font-size: 18px;
+}
+
+#rating {
+    background-color: #F4F2DE;
+}
+
+#rating p {
+    padding: 12px;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 65%;
+}
+
+#rating button {
+    display: block;
+    margin: auto;
+    font-size: 18px;
+}
+
+#section1 {
+    height: 500px;
+    background-color: #E9B384;
+}
+
+#section2 {
+    height: 500px;
+    background-color: #7C9D96;
+}
