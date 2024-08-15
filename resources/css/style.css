@@ -247,7 +247,6 @@ li a:visited {
 
 #how-it-works {
     background-color: #FFB996;
-    height: 1000px;
     color: white;
     font-family: 'Noto Sans Thai';
 }
@@ -267,11 +266,12 @@ li a:visited {
 
 #steps {
     margin: 0 120px;
+    padding-bottom: 32px;
 }
 
 #step1 {
     display: flex;
-    border: 1px solid blue;
+    margin: 48px 0;
 }
 
 #step1 #words{
@@ -281,12 +281,44 @@ li a:visited {
 
 #steps .step-title {
     border: 1px solid white;
-    width: 80px;
+    padding: 8px;
+    width: 88px;
     text-align: center;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+#words {
+    margin-right: 36px;
+}
+
+#words p {
+    font-size: 24px;
 }
 
 #image {
     display: inline-block;
     border: 1px solid black;
+    width: 50%;
+}
+
+#step2 {
+    display: flex;
+    margin: 48px 0;
+}
+
+#step2 #words {
+    display: inline-block;
+    width: 50%;
+    margin-right: 0;
+    margin-left: 36px;
+}
+
+#step3 {
+    display: flex;
+}
+
+#step3 #words {
+    display: inline-block;
     width: 50%;
 }
