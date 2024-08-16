@@ -281,7 +281,7 @@ li a:visited {
 
 #steps .step-title {
     border: 1px solid white;
-    padding: 8px;
+    padding: 6px;
     width: 88px;
     text-align: center;
     font-size: 16px;
@@ -290,16 +290,25 @@ li a:visited {
 
 #words {
     margin-right: 36px;
+    padding: 60px 0;
+}
+
+#words .step-overview {
+    font-size: 28px;
+    margin: 14px 0;
 }
 
 #words p {
-    font-size: 24px;
+    font-size: 18px;
+    margin: 10px 0;
 }
 
 #image {
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid white;
+    border-radius: 14px;
     width: 50%;
+    height: 400px;
 }
 
 #step2 {
