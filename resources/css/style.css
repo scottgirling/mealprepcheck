@@ -331,3 +331,23 @@ li a:visited {
     display: inline-block;
     width: 50%;
 }
+
+#faq-section {
+    background-color: #7C9D96;
+    height: 1000px;
+    color: white;
+    font-family: 'Noto Sans Thai';
+}
+
+#faq-title p {
+    text-align: center;
+    margin: 0 32px 32px 32px;
+    padding-top: 32px;
+    font-size: 30px;
+}
+
+#faq-title .faq-subheading {
+    font-size: 36px;
+    padding: 0;
+    margin-top: 32px;
+}
