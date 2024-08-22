@@ -332,6 +332,8 @@ li a:visited {
     width: 50%;
 }
 
+/* faq section */
+
 #faq-section {
     background-color: #7C9D96;
     height: 1000px;
@@ -350,4 +352,32 @@ li a:visited {
     font-size: 36px;
     padding: 0;
     margin-top: 32px;
+}
+
+.accordion-layout {
+    border: 1px solid blue;
+}
+
+.accordion {
+    border: 1px solid pink;
+}
+
+.accordion-question p {
+    border: 1px solid white;
+}
+
+.accordion-answer p {
+
+}
+
+.accordion:hover {
+    cursor: pointer;
+}
+
+.accordion-answer {
+    display: none;
+}
+
+.accordion.active .accordion-answer {
+    display: block;
 }
