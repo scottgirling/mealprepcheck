@@ -1,49 +1,86 @@
-#howitworks {
-    background-color: #A1CCD1;
+#how-it-works {
+    background-color: #FFB996;
+    color: white;
+    font-family: 'Noto Sans Thai';
 }
 
-#howitworks p {
-    padding: 12px;
-    margin: 0 auto;
-    font-size: 20px;
-    width: 65%;
-}
-
-.topline {
-    font-size: 28px;
+#works-title p {
+    padding-top: 32px;
+    margin: 0 32px 32px 32px;
     text-align: center;
-    font-weight: bold;
+    font-size: 30px;
 }
 
-#howitworks button {
-    display: block;
-    margin: auto;
+#works-title .works-subheading {
+    font-size: 36px;
+    padding: 0;
+    margin-top: 32px;
+}
+
+#steps {
+    margin: 0 120px;
+    padding-bottom: 32px;
+}
+
+#step1 {
+    display: flex;
+    margin: 48px 0;
+}
+
+#step1 #words{
+    display: inline-block;
+    width: 50%;
+}
+
+#steps .step-title {
+    border: 1px solid white;
+    padding: 6px;
+    width: 88px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+#words {
+    margin-right: 36px;
+    padding: 60px 0;
+}
+
+#words .step-overview {
+    font-size: 28px;
+    margin: 14px 0;
+}
+
+#words p {
     font-size: 18px;
+    margin: 10px 0;
 }
 
-#rating {
-    background-color: #F4F2DE;
+#image {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 14px;
+    width: 50%;
+    height: 400px;
 }
 
-#rating p {
-    padding: 12px;
-    margin: 0 auto;
-    font-size: 20px;
-    width: 65%;
+#step2 {
+    display: flex;
+    margin: 48px 0;
 }
 
-#rating button {
-    display: block;
-    margin: auto;
-    font-size: 18px;
+#step2 #words {
+    display: inline-block;
+    width: 50%;
+    margin-right: 0;
+    margin-left: 36px;
 }
 
-#section1 {
-    height: 500px;
-    background-color: #E9B384;
+#step3 {
+    display: flex;
 }
 
-#section2 {
-    height: 500px;
-    background-color: #7C9D96;
+#step3 #words {
+    display: inline-block;
+    width: 50%;
 }

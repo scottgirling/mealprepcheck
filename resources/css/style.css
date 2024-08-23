@@ -59,6 +59,7 @@ li a:visited {
 
 #cta {
     /* cambridge blue */ background-color: #A3C1AD;
+    /* background-color: #68A7AD; */
     font-family: "Ubuntu Sans", sans-serif;
 }
 
@@ -166,6 +167,7 @@ li a:visited {
 #cta-top {
     padding: 32px 0;
     /* air superiority blue */ background-color: #72A0C1;
+    /* background-color: #99C4C8; */
     display: flex;
     justify-content: center;
     font-family: 'Noto Sans Thai';
@@ -241,143 +243,4 @@ li a:visited {
 
 #tick {
     margin-left: 12px;
-}
-
-/* how it works section */
-
-#how-it-works {
-    background-color: #FFB996;
-    color: white;
-    font-family: 'Noto Sans Thai';
-}
-
-#works-title p {
-    padding-top: 32px;
-    margin: 0 32px 32px 32px;
-    text-align: center;
-    font-size: 30px;
-}
-
-#works-title .works-subheading {
-    font-size: 36px;
-    padding: 0;
-    margin-top: 32px;
-}
-
-#steps {
-    margin: 0 120px;
-    padding-bottom: 32px;
-}
-
-#step1 {
-    display: flex;
-    margin: 48px 0;
-}
-
-#step1 #words{
-    display: inline-block;
-    width: 50%;
-}
-
-#steps .step-title {
-    border: 1px solid white;
-    padding: 6px;
-    width: 88px;
-    text-align: center;
-    font-size: 16px;
-    border-radius: 16px;
-}
-
-#words {
-    margin-right: 36px;
-    padding: 60px 0;
-}
-
-#words .step-overview {
-    font-size: 28px;
-    margin: 14px 0;
-}
-
-#words p {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-#image {
-    display: inline-block;
-    border: 1px solid white;
-    border-radius: 14px;
-    width: 50%;
-    height: 400px;
-}
-
-#step2 {
-    display: flex;
-    margin: 48px 0;
-}
-
-#step2 #words {
-    display: inline-block;
-    width: 50%;
-    margin-right: 0;
-    margin-left: 36px;
-}
-
-#step3 {
-    display: flex;
-}
-
-#step3 #words {
-    display: inline-block;
-    width: 50%;
-}
-
-/* faq section */
-
-#faq-section {
-    background-color: #7C9D96;
-    height: 1000px;
-    color: white;
-    font-family: 'Noto Sans Thai';
-}
-
-#faq-title p {
-    text-align: center;
-    margin: 0 32px 32px 32px;
-    padding-top: 32px;
-    font-size: 30px;
-}
-
-#faq-title .faq-subheading {
-    font-size: 36px;
-    padding: 0;
-    margin-top: 32px;
-}
-
-.accordion-layout {
-    border: 1px solid blue;
-}
-
-.accordion {
-    border: 1px solid pink;
-}
-
-.accordion-question p {
-    border: 1px solid white;
-}
-
-.accordion-answer p {
-
-}
-
-.accordion:hover {
-    cursor: pointer;
-}
-
-.accordion-answer {
-    display: none;
-}
-
-.accordion.active .accordion-answer {
-    display: block;
 }

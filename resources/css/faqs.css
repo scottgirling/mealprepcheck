@@ -1,7 +1,64 @@
-#faq-header {
-    width: 100%;
+#faq-section {
+    background-color: #7C9D96;
+    color: white;
+    font-family: 'Noto Sans Thai';
+    padding-bottom: 32px;
 }
 
-img {
-    width: 100%;
+#faq-title p {
+    text-align: center;
+    margin: 0 32px 32px 32px;
+    padding-top: 32px;
+    font-size: 30px;
+}
+
+#faq-title .faq-subheading {
+    font-size: 36px;
+    padding: 0;
+    margin-top: 32px;
+}
+
+.accordion-layout {
+    margin: 32px 48px;
+}
+
+.accordion {
+    margin: 12px auto;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 1200px;
+}
+
+.accordion-question p {
+    font-size: 24px;
+    margin: 12px;
+    text-align: center;
+}
+
+.accordion-answer p {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.accordion:hover {
+    cursor: pointer;
+}
+
+.accordion-answer {
+    display: none;
+}
+
+.accordion.active .accordion-answer {
+    display: block;
+}
+
+.accordion.active {
+    background-color: white;
+    color: #7C9D96;
+}
+
+.accordion.active .accordion-question p {
+    font-size: 24px;
+    font-weight: bold;
 }
