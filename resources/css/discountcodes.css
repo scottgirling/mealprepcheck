@@ -1,0 +1,76 @@
+#discount-header p {
+    background-color: #6295A2;
+    color: white;
+    font-size: 32px;
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+}
+
+#discount-section {
+    background-color: #538392;
+    color: white;
+}
+
+#top-offers p {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Noto Sans Thai';
+    text-align: center;
+    padding: 32px;
+}
+
+#offer-list {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#list-option {
+    border-radius: 6px;
+    width: 400px;
+    margin: 0 14px 28px 14px;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+}
+
+.image {
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 240px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+
+.offer-company {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 8px;
+}
+
+.offer {
+    font-size: 18px;
+    margin: 8px;
+}
+
+#list-option:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+/* why discount codes sections */
+
+#why-codes {
+    height: 600px;
+    background-color: #80B9AD;
+}
+
+#why-codes p {
+    margin-top: 0;
+    font-size: 48px;
+    color: white;
+    padding: 24px;
+}
