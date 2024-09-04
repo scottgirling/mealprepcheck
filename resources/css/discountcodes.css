@@ -1,7 +1,7 @@
 #discount-header p {
-    background-color: #6295A2;
+    background-color: #6CB4EE;
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     margin: 0;
     padding: 12px;
     text-align: center;
@@ -27,13 +27,17 @@
     flex-wrap: wrap;
 }
 
-#list-option {
+.list-option {
     border-radius: 6px;
     width: 400px;
-    margin: 0 14px 28px 14px;
+    margin: 0 14px;
     justify-content: space-around;
     background-color: white;
     color: black;
+}
+
+#top {
+    margin-bottom: 28px;
 }
 
 .image {
@@ -56,21 +60,69 @@
     margin: 8px;
 }
 
-#list-option:hover {
+.list-option:hover {
     transform: scale(1.01);
+    cursor: pointer;
+}
+
+#view-all-offers {
+    text-align: center;
+    font-size: 18px;
+    padding: 36px;
+    width: 16%;
+    margin: auto;
+}
+
+#view-all-offers:hover {
     cursor: pointer;
 }
 
 /* why discount codes sections */
 
-#why-codes {
-    height: 600px;
+#discount-cta {
     background-color: #80B9AD;
+    font-family: 'Noto Sans Thai';
+    color: white;
 }
 
-#why-codes p {
-    margin-top: 0;
-    font-size: 48px;
+#why-heading p {
+    margin: 0;
+    font-size: 72px;
+    padding: 48px 48px 12px 108px;
+}
+
+#why-subheading p {
+    margin: 0;
+    font-size: 24px;
+    padding: 12px 108px;
+}
+
+#start-exploring {
+    padding-bottom: 48px;
+}
+
+#start-exploring p {
+    padding: 8px;
+    margin: 12px 108px;
+    font-size: 18px;
+    border: 1px solid white;
+    width: 10%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#start-exploring p:hover {
+    cursor: pointer;
+}
+
+#email {
+    font-family: 'Noto Sans Thai';
     color: white;
-    padding: 24px;
+    background-color: #B3E2A7;
+    padding: 48px 108px;
+    font-size: 24px;
+}
+
+#email-box {
+    width: 200px;
 }
