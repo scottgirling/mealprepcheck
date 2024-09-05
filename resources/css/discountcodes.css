@@ -3,7 +3,7 @@
     color: white;
     font-size: 24px;
     margin: 0;
-    padding: 12px;
+    padding: 16px;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
 }
 
 #offer-list {
-    width: 85%;
+    width: 82.2%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -30,14 +30,14 @@
 .list-option {
     border-radius: 6px;
     width: 400px;
-    margin: 0 14px;
+    margin: 0 8px;
     justify-content: space-around;
     background-color: white;
     color: black;
 }
 
 #top {
-    margin-bottom: 28px;
+    margin-bottom: 16px;
 }
 
 .image {
@@ -61,7 +61,6 @@
 }
 
 .list-option:hover {
-    transform: scale(1.01);
     cursor: pointer;
 }
 
@@ -113,6 +112,10 @@
 
 #start-exploring p:hover {
     cursor: pointer;
+}
+
+#start-exploring a:visited, #view-all-offers a:visited {
+    color: white;
 }
 
 #email {
