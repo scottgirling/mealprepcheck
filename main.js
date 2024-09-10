@@ -172,3 +172,35 @@ window.onclick = function(event) {
 		modalEmail.style.display = "none";
 	}
 }
+
+function myFunction1() {
+	// Get the text field
+	var copyText = document.getElementById("code1");
+  
+	// Select the text field
+	code1.select();
+	code1.setSelectionRange(0, 99999); // For mobile devices
+  
+	 // Copy the text inside the text field
+	navigator.clipboard.writeText(code1.value);
+  
+	// Alert that the code copied
+	var btn1 = document.getElementById("button1");
+	btn1.innerHTML = 'Copied';
+}
+
+function myFunction2() {
+	// Get the text field
+	var copyText = document.getElementById("code2");
+  
+	// Select the text field
+	code2.select();
+	code2.setSelectionRange(0, 99999); // For mobile devices
+  
+	 // Copy the text inside the text field
+	navigator.clipboard.writeText(code2.value);
+  
+	// Alert that the code copied
+	var btn2 = document.getElementById("button2");
+	btn2.innerHTML = 'Copied';
+}
