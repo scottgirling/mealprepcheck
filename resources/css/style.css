@@ -1,86 +1,115 @@
 body {
     margin: 0;
-    font-family: "Ubuntu Sans", sans-serif;
+    font-family: 'Noto Sans Thai';
 }
 
 /* navigation styles */
 
 #navigation {
     display: flex;
-    /* astros navy */ background-color: #002D62;
-    color: white;
 }
 
-#logo {
-    font-size: 26px;
-    margin-left: 12px;
-    font-family: 'Coiny';
+.biz-name p {
+    font-size: 30px;
+    color: #6295A2;
+    margin: 24px 0 0 132px;
+    text-align: center;
+}
+
+.slogan p {
+    font-size: 10px;
+    color: #6295A2;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 14px 132px;
 }
 
 .navbar {
     display: flex;
     margin: 0 auto;
     height: 100%;
-    padding-left: 250px;
+    margin-left: 28%;
+    width: 100%;
 }
 
 .navbar li {
     display: inline-block;
-    padding: 10px 20px;
-    margin: auto 10px;
+    padding: 4px;
+    margin: auto 20px;
     font-size: 16px;
 }
 
 li:hover {
-    background-color: #A3C1AD;
-    height: 78%;
-    display: flex;
-    align-items: center;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 li a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
-}
-
-#logo a:visited {
-    color: white;
-}
-
-#last-button {
-    margin-left: 300px;
-}
-
-#cta-nav-button {
-    font-size: 18px;
 }
 
 /* type of compare option */
 
-#cta {
-    /* cambridge blue */ background-color: #A3C1AD;
-    /* background-color: #68A7AD; */
-    font-family: "Ubuntu Sans", sans-serif;
-}
-
-#intro {
-    background-color: #6CB4EE;
-    color: white;
-}
-
 #intro p {
+    background-color: #B3E2A7;
+    font-size: 18px;
     margin: 0;
     padding: 16px;
     text-align: center;
+}
+
+#comparison-button:hover {
+    text-decoration: underline !important;
+}
+
+#comparison-button:active, #comparison-button:focus, #comparison-button:visited {
+    color: black;
+}
+
+#cta {
+    background-color: #80B9AD;
+    height: 800px;
+    display: flex;
+}
+
+#cta-words {
+    border: 1px solid black;
+    display: inline-block;
+    width: 50%;
+    padding: 24px 24px 24px 108px;
+}
+
+#cta-words .big-text{
+    margin-top: 0;
+}
+
+.big-text {
+    font-size: 48px;
+}
+
+.little-text {
     font-size: 24px;
 }
+
+#cta-image {
+    width: 50%;
+    margin: 0 24px 24px 48px;
+    display: inline-block;
+}
+
+#cta-image img {
+    height: 500px;
+    width: 500px;
+    padding: 24px 132px;
+}
+
+/* next section!!! */
 
 .compare-choice {
     color: white;
     font-size: 48px;
     font-weight: 400;
-    /* font-family: 'Coiny'; */
-    font-family: 'Noto Sans Thai';
     text-align: center;
     margin: 0;
     padding: 12px 0;
