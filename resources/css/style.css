@@ -9,6 +9,10 @@ body {
     display: flex;
 }
 
+#home-button:active, #home-button:visited, #home-button:focus, #home-button:link {
+    text-decoration: none;
+}
+
 .biz-name p {
     font-size: 30px;
     color: #6295A2;
@@ -44,9 +48,8 @@ li:hover {
     cursor: pointer;
 }
 
-li a:visited {
+li a:visited, li a:active, li a:focus {
     color: black;
-    text-decoration: none;
 }
 
 /* type of compare option */
@@ -69,45 +72,62 @@ li a:visited {
 
 #cta {
     background-color: #80B9AD;
-    height: 800px;
     display: flex;
 }
 
 #cta-words {
-    border: 1px solid black;
     display: inline-block;
-    width: 50%;
-    padding: 24px 24px 24px 108px;
-}
-
-#cta-words .big-text{
-    margin-top: 0;
+    width: 60%;
+    padding: 24px 24px 0 140px;
 }
 
 .big-text {
-    font-size: 48px;
+    margin: 48px 0 0 0;
+    font-family: "Satisfy";
+    font-size: 92px;
+    
 }
 
 .little-text {
-    font-size: 24px;
+    font-size: 20px;
+    width: 40%;
+    margin: 0 0 24px 0;
+}
+
+#lets-get-started-button {
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#lets-get-started-button:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+
+#lets-get-started-button:active, #lets-get-started-button:focus, #lets-get-started-button:visited {
+    color: white;
 }
 
 #cta-image {
-    width: 50%;
-    margin: 0 24px 24px 48px;
+    width: 46%;
+    margin: 0 24px 0 0;
     display: inline-block;
 }
 
 #cta-image img {
     height: 500px;
     width: 500px;
-    padding: 24px 132px;
+    padding: 24px 198px 24px 66px;
 }
 
 /* next section!!! */
 
 .compare-choice {
-    color: white;
     font-size: 48px;
     font-weight: 400;
     text-align: center;
