@@ -1,0 +1,153 @@
+/* next section!!! */
+
+.compare-choice {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 12px 0;
+}
+
+.compare-option {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    padding-bottom: 0;
+}
+
+.option {
+    background-color: white;
+    margin: 0 12px;
+    padding: 12px;
+    border-radius: 16px;
+}
+
+#option-r2g {
+    display: inline-block;
+    text-align: center;
+}
+
+#option-recipe-kit {
+    display: inline-block;
+    text-align: center;
+}
+
+.option-image {
+    padding: 12px;
+    height: 300px;
+    width: 500px;
+}
+
+.option-image img {
+    height: 333px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.option-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+#cta button {
+    border: none;
+    background-color: #002D62;
+    color: white;
+    padding: 12px;
+    margin-top: 32px;
+    border-radius: 10px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+#no-dec {
+    text-decoration: none;
+}
+
+/* how it works section */
+
+#how-it-works {
+    background-color: #FFB996;
+    color: white;
+    font-family: 'Noto Sans Thai';
+}
+
+#works-title p {
+    padding-top: 32px;
+    margin: 0 32px 32px 32px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#works-title .works-subheading {
+    font-size: 36px;
+    padding: 0;
+    margin-top: 32px;
+}
+
+#steps {
+    margin: 0 120px;
+    padding-bottom: 32px;
+}
+
+#step1 {
+    display: flex;
+    margin: 48px 0;
+}
+
+#step1 #words{
+    display: inline-block;
+    width: 50%;
+}
+
+#steps .step-title {
+    border: 1px solid white;
+    padding: 6px;
+    width: 88px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+#words {
+    margin-right: 36px;
+    padding: 60px 0;
+}
+
+#words .step-overview {
+    font-size: 28px;
+    margin: 14px 0;
+}
+
+#words p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#image {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 14px;
+    width: 50%;
+    height: 400px;
+}
+
+#step2 {
+    display: flex;
+    margin: 48px 0;
+}
+
+#step2 #words {
+    display: inline-block;
+    width: 50%;
+    margin-right: 0;
+    margin-left: 36px;
+}
+
+#step3 {
+    display: flex;
+}
+
+#step3 #words {
+    display: inline-block;
+    width: 50%;
+}

@@ -52,9 +52,13 @@ li a:visited, li a:active, li a:focus {
     color: black;
 }
 
-/* type of compare option */
+#no-dec {
+    text-decoration: none;
+}
 
-#intro p {
+/* tag */
+
+#tag p {
     background-color: #B3E2A7;
     font-size: 18px;
     margin: 0;
@@ -70,6 +74,8 @@ li a:visited, li a:active, li a:focus {
     color: black;
 }
 
+/* cta index.html */
+
 #cta {
     background-color: #80B9AD;
     display: flex;
@@ -78,14 +84,13 @@ li a:visited, li a:active, li a:focus {
 #cta-words {
     display: inline-block;
     width: 60%;
-    padding: 24px 24px 0 140px;
+    padding: 24px 24px 72px 140px;
 }
 
 .big-text {
     margin: 48px 0 0 0;
     font-family: "Satisfy";
     font-size: 92px;
-    
 }
 
 .little-text {
@@ -96,7 +101,6 @@ li a:visited, li a:active, li a:focus {
 
 #lets-get-started-button {
     margin: 0;
-    border: 1px solid black;
     border-radius: 10px;
     padding: 12px;
     text-align: center;
@@ -120,95 +124,77 @@ li a:visited, li a:active, li a:focus {
 }
 
 #cta-image img {
-    height: 500px;
-    width: 500px;
-    padding: 24px 198px 24px 66px;
+    height: 100%;
+    width: 565px;
+    padding: 0 66px;
 }
 
-/* next section!!! */
+/* what we do */
 
-.compare-choice {
+#text-header p {
     font-size: 48px;
-    font-weight: 400;
+    margin: auto;
+    padding-top: 48px;
     text-align: center;
-    margin: 0;
-    padding: 12px 0;
 }
 
-.compare-option {
+.vistameal {
+    color: #6295A2;
+    font-family: "Satisfy";
+}
+
+#text-subheader p {
+    font-size: 22px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 16px;
+}
+
+#products {
+    margin: 16px 108px;
     display: flex;
-    justify-content: center;
-    padding: 12px;
-    padding-bottom: 0;
+    justify-content: space-around;
 }
 
-.option {
-    background-color: white;
-    margin: 0 12px;
-    padding: 12px;
-    border-radius: 16px;
-}
-
-#option-r2g {
+.product {
     display: inline-block;
     text-align: center;
+    font-size: 16px;
+    padding-top: 12px
 }
 
-#option-recipe-kit {
-    display: inline-block;
-    text-align: center;
-}
-
-.option-image {
-    padding: 12px;
-    height: 300px;
-    width: 500px;
-}
-
-.option-image img {
-    height: 333px;
-    width: 500px;
-    border-radius: 15px;
-}
-
-.option-title {
-    text-align: center;
-    font-size: 24px;
-}
-
-#cta button {
-    border: none;
-    background-color: #002D62;
-    color: white;
-    padding: 12px;
-    margin-top: 32px;
+.product img {
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
     border-radius: 10px;
-    font-family: "Ubuntu Sans", sans-serif;
 }
 
-#next-section {
-    padding: 12px;
+.product p {
+    margin: 24px;
 }
 
-#arrow {
+#find-out-more-button {
+    border-radius: 10px;
+    padding: 12px 24px;
+    text-align: center;
+    background-color: black;
     color: white;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    margin: 24px auto;
-    padding: 8px;
-    border: 1px solid white;
-    width: 1.75%;
-    border-radius: 60%;
+    font-size: 16px;
 }
 
-#arrow:hover {
-    color: #A3C1AD;
-    background-color: white;
+#find-out-more-button:hover {
+    opacity: 75%;
+    cursor: pointer;
 }
 
-#no-dec {
-    text-decoration: none;
+#find-out-more-button:active, #find-out-more-button:focus, #find-out-more-button:visited {
+    color: white;
+}
+
+.fa-arrow-right {
+    font-size: 12px;
 }
 
 /* cta section styles */
