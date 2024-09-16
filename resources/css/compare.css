@@ -1,4 +1,10 @@
-/* next section!!! */
+/* what will you compare first */
+
+#compare-background {
+    background-color: #80B9AD;
+    font-family: 'Noto Sans Thai';
+    padding-bottom: 48px;
+}
 
 .compare-choice {
     font-size: 48px;
@@ -22,12 +28,12 @@
     border-radius: 16px;
 }
 
-#option-r2g {
+#right-heat {
     display: inline-block;
     text-align: center;
 }
 
-#option-recipe-kit {
+#left-kit {
     display: inline-block;
     text-align: center;
 }
@@ -44,19 +50,24 @@
     border-radius: 15px;
 }
 
-.option-title {
+#option-title {
     text-align: center;
-    font-size: 24px;
-}
-
-#cta button {
-    border: none;
-    background-color: #002D62;
+    font-size: 16px;
+    background-color: black;
     color: white;
     padding: 12px;
     margin-top: 32px;
     border-radius: 10px;
-    font-family: "Ubuntu Sans", sans-serif;
+    font-family: 'Noto Sans Thai';
+}
+
+#option-title:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+#title p {
+    margin: 50px 0 20px 0;
 }
 
 #no-dec {
@@ -66,8 +77,6 @@
 /* how it works section */
 
 #how-it-works {
-    background-color: #FFB996;
-    color: white;
     font-family: 'Noto Sans Thai';
 }
 
@@ -100,7 +109,7 @@
 }
 
 #steps .step-title {
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 6px;
     width: 88px;
     text-align: center;
@@ -125,7 +134,7 @@
 
 #image {
     display: inline-block;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 14px;
     width: 50%;
     height: 400px;
