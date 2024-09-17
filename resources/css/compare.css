@@ -3,21 +3,19 @@
 #compare-background {
     background-color: #80B9AD;
     font-family: 'Noto Sans Thai';
-    padding-bottom: 48px;
+    padding-bottom: 72px;
 }
 
 .compare-choice {
     font-size: 48px;
-    font-weight: 400;
     text-align: center;
     margin: 0;
-    padding: 12px 0;
+    padding: 24px;
 }
 
 .compare-option {
     display: flex;
     justify-content: center;
-    padding: 12px;
     padding-bottom: 0;
 }
 
@@ -26,15 +24,6 @@
     margin: 0 12px;
     padding: 12px;
     border-radius: 16px;
-}
-
-#right-heat {
-    display: inline-block;
-    text-align: center;
-}
-
-#left-kit {
-    display: inline-block;
     text-align: center;
 }
 
@@ -81,21 +70,20 @@
 }
 
 #works-title p {
-    padding-top: 32px;
-    margin: 0 32px 32px 32px;
+    padding-top: 64px;
+    margin: 0 32px 24px 32px;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 #works-title .works-subheading {
-    font-size: 36px;
+    font-size: 32px;
+    font-weight: bold;
     padding: 0;
-    margin-top: 32px;
 }
 
 #steps {
-    margin: 0 120px;
-    padding-bottom: 32px;
+    margin: 48px 120px;
 }
 
 #step1 {
@@ -110,11 +98,11 @@
 
 #steps .step-title {
     border: 1px solid black;
-    padding: 6px;
+    border-radius: 10px;
+    padding: 4px 2px;
     width: 88px;
     text-align: center;
     font-size: 16px;
-    border-radius: 16px;
 }
 
 #words {
@@ -159,4 +147,85 @@
 #step3 #words {
     display: inline-block;
     width: 50%;
+}
+
+#compare-now {
+    text-align: center;
+    margin: 48px 0 72px 0;
+}
+
+/* MealVista Compare FAQs section */
+
+#faq-section {
+    /* background-color: #7C9D96; */
+    background-color: #72A0C1;
+    color: white;
+    font-family: 'Noto Sans Thai';
+}
+
+#faq-title p {
+    text-align: center;
+    margin: 0 32px 24px 32px;
+    padding-top: 64px;
+    font-size: 32px;
+}
+
+#faq-title .faq-subheading {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.accordion-layout {
+    margin: 48px;
+}
+
+.accordion {
+    margin: 12px auto;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 1000px;
+}
+
+.accordion-question p {
+    font-size: 24px;
+    margin: 12px;
+    text-align: center;
+}
+
+.accordion-answer p {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 24px;
+}
+
+.accordion:hover {
+    cursor: pointer;
+}
+
+.accordion-answer {
+    display: none;
+}
+
+#faq-link:active, #faq-link:visited, #faq-link:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+.accordion.active .accordion-answer {
+    display: block;
+}
+
+.accordion.active {
+    background-color: white;
+    color: black;
+}
+
+#more-faqs {
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+#more-faqs-button {
+    margin-top: 32px;
 }

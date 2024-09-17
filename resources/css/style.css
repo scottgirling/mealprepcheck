@@ -197,7 +197,7 @@ li a:visited, li a:active, li a:focus {
 /* cta section styles */
 
 #cta-top {
-    /* air superiority blue */background-color: #72A0C1;
+    /* air superiority blue */ background-color: #72A0C1;
     display: flex;
     justify-content: center;
     font-family: 'Noto Sans Thai';
