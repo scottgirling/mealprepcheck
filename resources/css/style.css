@@ -48,12 +48,12 @@ li:hover {
     cursor: pointer;
 }
 
-li a:visited, li a:active, li a:focus {
+/* li a:visited, li a:active, li a:focus {
     color: black;
-}
+} */
 
-#no-dec {
-    text-decoration: none;
+#no-dec:link, #no-dec:active, #no-dec:visited {
+    color: black;
 }
 
 /* tag */
