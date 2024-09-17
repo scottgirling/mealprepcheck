@@ -76,6 +76,10 @@
     cursor: pointer;
 }
 
+#view-all-offers:active, #view-all-offers:link, #view-all-offers:visited {
+    color: white;
+}
+
 /* why discount codes sections */
 
 #discount-cta {
@@ -110,11 +114,11 @@
     border-radius: 6px;
 }
 
-#start-exploring p:hover {
+#start-exploring:hover {
     cursor: pointer;
 }
 
-#start-exploring a:visited, #view-all-offers a:visited {
+#start-exploring:visited, #start-exploring:focus #start-exploring:visited {
     color: white;
 }
 
