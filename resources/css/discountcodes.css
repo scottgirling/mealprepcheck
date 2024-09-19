@@ -56,31 +56,14 @@
     color: white;
 }
 
-#email {
-    font-family: 'Noto Sans Thai';
-    color: white;
-    background-color: #B3E2A7;
-    padding: 48px 108px;
-    font-size: 24px;
-}
-
-#email-box {
-    width: 200px;
-}
-
 /* discount codes section */
-
-#discount-section {
-    background-color: #538392;
-    color: white;
-}
 
 #top-offers p {
     margin: 0;
     font-size: 32px;
     font-family: 'Noto Sans Thai';
     text-align: center;
-    padding: 32px;
+    padding: 64px 0 36px 0;
 }
 
 #offer-list {
@@ -95,8 +78,7 @@
     width: 400px;
     margin: 0 8px;
     justify-content: space-around;
-    background-color: white;
-    color: black;
+    background-color: lightgray;
 }
 
 #top {
@@ -104,12 +86,12 @@
 }
 
 .image {
-    border: 1px solid black;
-    border-radius: 6px;
+    border: 4px solid lightgray;
+    border-radius: 8px;
     height: 240px;
     margin-top: 0;
     margin-bottom: 0;
-    color: black;
+    background-color: white;
 }
 
 .offer-company {
@@ -129,16 +111,21 @@
 
 #view-all-offers {
     text-align: center;
-    font-size: 18px;
-    padding: 36px;
-    width: 16%;
-    margin: auto;
+    margin: 48px 0 72px 0;
 }
 
-#view-all-offers:hover {
+#view-all-offers-button {
+    background-color: black;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#view-all-offers-button:hover {
     cursor: pointer;
+    opacity: 75%;
 }
 
-#view-all-offers:active, #view-all-offers:link, #view-all-offers:visited {
+#view-all-offers-button:active, #view-all-offers-button:link, #view-all-offers-button:visited {
     color: white;
 }
