@@ -101,7 +101,7 @@ li:hover {
 
 #lets-get-started-button {
     margin: 0;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 12px;
     text-align: center;
     background-color: black;
@@ -173,7 +173,7 @@ li:hover {
 }
 
 #find-out-more-button {
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 12px 24px;
     text-align: center;
     background-color: black;

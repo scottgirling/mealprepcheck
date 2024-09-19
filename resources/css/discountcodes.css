@@ -1,11 +1,74 @@
-#discount-header p {
-    background-color: #6CB4EE;
-    color: white;
-    font-size: 24px;
-    margin: 0;
-    padding: 16px;
-    text-align: center;
+/* why discount codes sections */
+
+#discount-cta {
+    background-color: #80B9AD;
+    font-family: 'Noto Sans Thai';
+    display: flex;
 }
+
+#left-cta {
+    display: inline-block;
+    width: 60%;
+    padding: 24px 0 72px 140px;
+}
+
+#right-cta {
+    display: flex;
+    align-items: center;
+    width: 46%;
+}
+
+#right-cta img {
+    width: 873px;
+    height: 489px;
+}
+
+#why-heading p {
+    margin: 48px 0 0 0;
+    font-size: 92px;
+    font-family: "Satisfy";
+}
+
+#why-subheading p {
+    margin: 0;
+    font-size: 20px;
+}
+
+#start-exploring-div {
+    margin-top: 24px;
+}
+
+#start-exploring {
+    padding: 12px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#start-exploring:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+#start-exploring:visited, #start-exploring:focus #start-exploring:visited {
+    color: white;
+}
+
+#email {
+    font-family: 'Noto Sans Thai';
+    color: white;
+    background-color: #B3E2A7;
+    padding: 48px 108px;
+    font-size: 24px;
+}
+
+#email-box {
+    width: 200px;
+}
+
+/* discount codes section */
 
 #discount-section {
     background-color: #538392;
@@ -78,58 +141,4 @@
 
 #view-all-offers:active, #view-all-offers:link, #view-all-offers:visited {
     color: white;
-}
-
-/* why discount codes sections */
-
-#discount-cta {
-    background-color: #80B9AD;
-    font-family: 'Noto Sans Thai';
-    color: white;
-}
-
-#why-heading p {
-    margin: 0;
-    font-size: 72px;
-    padding: 48px 48px 12px 108px;
-}
-
-#why-subheading p {
-    margin: 0;
-    font-size: 24px;
-    padding: 12px 108px;
-}
-
-#start-exploring {
-    padding-bottom: 48px;
-}
-
-#start-exploring p {
-    padding: 8px;
-    margin: 12px 108px;
-    font-size: 18px;
-    border: 1px solid white;
-    width: 10%;
-    text-align: center;
-    border-radius: 6px;
-}
-
-#start-exploring:hover {
-    cursor: pointer;
-}
-
-#start-exploring:visited, #start-exploring:focus #start-exploring:visited {
-    color: white;
-}
-
-#email {
-    font-family: 'Noto Sans Thai';
-    color: white;
-    background-color: #B3E2A7;
-    padding: 48px 108px;
-    font-size: 24px;
-}
-
-#email-box {
-    width: 200px;
 }
