@@ -175,7 +175,7 @@ function myFunction1() {
   
 	// Alert that the code copied
 	var btn1 = document.getElementById("button1");
-	btn1.innerHTML = 'Copied';
+	btn1.innerHTML = 'Copied!';
 }
 
 function myFunction2() {
@@ -191,5 +191,5 @@ function myFunction2() {
   
 	// Alert that the code copied
 	var btn2 = document.getElementById("button2");
-	btn2.innerHTML = 'Copied';
+	btn2.innerHTML = 'Copied!';
 }

@@ -198,6 +198,7 @@ li:hover {
 
 #cta-top {
     /* air superiority blue */ background-color: #72A0C1;
+    /* background-color: #538392; same background color as FAQs section on other pages */
     display: flex;
     justify-content: center;
     font-family: 'Noto Sans Thai';
@@ -321,8 +322,9 @@ footer .fa-brands {
 
 #footer-email-border {
     border: 2px solid #6295A2;
-    border-radius: 10px;
+    border-radius: 8px;
     width: auto;
+    display: flex;
 }
 
 #footer-email {
@@ -339,10 +341,12 @@ footer .fa-brands {
 }
 
 #footer-email-submit {
-    height: 51.2px;
     background-color: #6295A2;
+    color: white;
     border: none;
+    padding: 12px;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 #footer-email-submit:hover {

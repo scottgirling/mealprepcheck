@@ -1,20 +1,60 @@
 #view-all-section {
     background-color: lightgray;
     font-family: 'Noto Sans Thai';
+    padding-bottom: 48px;
+    display: flex;
 }
 
 /* codes sent to inbox section */
 
-#email-me-discounts {
-    width: 50%;
-    margin: 0 108px 14px 108px;
+#view-all-left {
+    display: inline-block;
+    width: 75%;
+}
+
+#view-all-right {
+    display: inline-block;
+    width: 25%;
+    margin: 48px 140px 0 0;
+}
+
+#search-by-brand {
+    margin: 16px;
+}
+
+.brand-title {
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#brands {
+    display: flex;
+}
+
+#brands ul {
+    margin: 16px 0;
+    padding: 0;
+}
+
+#brands li {
+    background-color: white;
+    border-radius: 2px;
+    margin: 4px;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+#brands li:hover {
+    background-color: #6295A2;
 }
 
 #email-me-discounts {
-    margin-bottom: 0;
-    margin-top: 0;
+    width: 75%;
+    margin: 0 140px;
     padding: 48px 0;
+    text-align: center;
 }
 
 #email-me-discounts p {
@@ -28,19 +68,19 @@
 }
 
 .email-discount-button {
-    width: 24%;
+    width: 20.5%;
     margin: auto !important;
-    margin-bottom: 12px;
     padding: 12px;
-    background-color: white;
+    background-color: black;
+    color: white;
     border-radius: 8px;
     font-size: 16px !important;
-    font-weight: bold;
+    
 }
 
 .email-discount-button:hover {
     cursor: pointer;
-    background-color: whitesmoke;
+    opacity: 75%;
 }
 
 /* The Modal (background) */
@@ -64,6 +104,7 @@
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
+    border-radius: 8px;
 }
 
 .discount-subtitle {
@@ -85,25 +126,26 @@
 
 input {
     height: 40px;
+    font-size: 16px;
     width: 280px;
-    font-size: 14px;
     padding: 0 6px;
 }
 
 button {
-    background-color: lightgray;
+    background-color: black;
+    color: white;
     border: none;
     border-radius: 8px;
     padding: 12px;
-    width: 30%;
     display: block;
     margin: auto;
     font-size: 16px;
+    font-family: 'Noto Sans Thai';
 }
 
 button:hover {
     cursor: pointer;
-    background-color: darkgray;
+    opacity: 75%;
 }
 
 /* The Close Button */
@@ -125,8 +167,8 @@ button:hover {
 #discount-code {
     background-color: white;
     border-radius: 6px;
-    width: 50%;
-    margin: 0 108px 14px 108px;
+    width: 75%;
+    margin: 0 140px 14px 140px;
     display: flex;
     justify-content: space-between;
 }
@@ -169,6 +211,10 @@ button:hover {
     transform: scale(1.02);
 }
 
+#modal-email-section {
+    border-top: 1px solid #6295A2;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */  
@@ -186,9 +232,9 @@ button:hover {
 /* Modal Content/Box */
 .modal-content {
     background-color: white;
-    margin: 12% auto; /* 15% from the top and centered */
+    margin: 5% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border-radius: 8px;
     width: 50%;
 }
 
@@ -198,15 +244,16 @@ button:hover {
 }
 
 #highlight {
-    color: orange;
+    color: #6295A2;
+    font-weight: bold;
 }
 
 #modal-discount-code {
     display: flex;
-    background-color: lightsalmon;
+    background-color: #6295A2;
     justify-content: space-between;
-    border: 2px dotted black;
-    border-radius: 6px;
+    border-radius: 8px;
+    padding: 12px 0;
 }
 
 #code1, #code2 {
@@ -215,17 +262,16 @@ button:hover {
     padding: 12px;
     width: 24%;
     text-align: center;
-    background-color: lightsalmon;
+    background-color: #6295A2;
     border: none;
 }
 
 #button1, #button2 {
     display: inline-block;
     margin: 12px 96px;
-    padding: 12px;
-    background-color: darkgoldenrod;
-    border-radius: 6px;
-    font-size: 14px;
+    padding: 0 24px;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
 #continue-to-website {
