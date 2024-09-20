@@ -12,44 +12,6 @@
     width: 75%;
 }
 
-#view-all-right {
-    display: inline-block;
-    width: 25%;
-    margin: 48px 140px 0 0;
-}
-
-#search-by-brand {
-    margin: 16px;
-}
-
-.brand-title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-#brands {
-    display: flex;
-}
-
-#brands ul {
-    margin: 16px 0;
-    padding: 0;
-}
-
-#brands li {
-    background-color: white;
-    border-radius: 2px;
-    margin: 4px;
-    padding: 4px;
-    display: inline-block;
-    text-decoration: none !important;
-}
-
-#brands li:hover {
-    background-color: #6295A2;
-}
-
 #email-me-discounts {
     width: 75%;
     margin: 0 140px;
@@ -303,4 +265,48 @@ button:hover {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* search by brands section */
+
+#view-all-right {
+    display: inline-block;
+    width: 25%;
+    margin: 48px 140px 0 0;
+}
+
+#search-by-brand {
+    margin: 16px;
+}
+
+.brand-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#brands {
+    display: flex;
+}
+
+#brands ul {
+    margin: 16px 0;
+    padding: 0;
+}
+
+#brands li {
+    background-color: white;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+#brands li:hover {
+    background-color: #B3E2A7;
+}
+
+#brands a:active, #brands a:focus, #brands a:visited {
+    color: black;
 }
