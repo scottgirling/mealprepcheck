@@ -77,18 +77,39 @@
     margin-top: 24px;
 }
 
+.pillars {
+    display: flex;
+    align-items: center;
+}
+
+.pillars p {
+    padding-left: 12px;
+}
+
+.pillars .fa-solid {
+    width: 22.5px;
+}
+
 #brands {
     padding: 48px 140px;
     background-color: lightgray;
+    display: flex;
 }
 
 .brands-text {
+    width: 50%;
+    font-size: 18px;
+}
+
+.brands-header {
     font-size: 30px;
 }
 
 .brands-we-work-with {
+    width: 50%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     font-size: 18px;
 }
 
@@ -103,14 +124,24 @@
 .brand-logo {
     border: 1px solid black;
     text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 12px;
 }
 
 #social-media {
     padding: 48px 140px;
     background-color: #72A0C1;
     color: white;
+    font-size: 18px;
 }
 
 .social-media-header {
     font-size: 30px;
+}
+
+.about-social-media {
+    color: white;
+    font-size: 32px;
+    margin: 0 12px;
 }
