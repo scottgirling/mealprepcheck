@@ -1,0 +1,116 @@
+#about-question {
+    background-color: #80B9AD;
+    padding: 48px 140px;
+    font-size: 36px;
+}
+
+#infographic {
+    padding: 48px 140px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.info-stat {
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+.info-stat-number {
+    height: 150px;
+    width: 350px;
+    margin: 12px auto;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.info-stat-number p {
+    width: 100%;
+    text-align: center;
+}
+
+.info-stat-headline {
+    text-align: center;
+    font-size: 22px;
+    border-top: 1px solid black;
+    width: 350px;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.info-stat-headline p {
+    margin: 12px;
+}
+
+#mission {
+    padding: 48px 140px;
+    font-size: 18px;
+}
+
+.mission-header {
+    font-size: 30px;
+}
+
+#start {
+    padding: 48px 140px;
+    background-color: #72A0C1;
+    font-size: 18px;
+    color: white;
+}
+
+.start-header {
+    font-size: 30px;
+}
+
+#for-you {
+    padding: 48px 140px;
+    font-size: 18px;
+}
+
+.for-you-header {
+    font-size: 30px;
+}
+
+#for-you-cta {
+    margin-top: 24px;
+}
+
+#brands {
+    padding: 48px 140px;
+    background-color: lightgray;
+}
+
+.brands-text {
+    font-size: 30px;
+}
+
+.brands-we-work-with {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.brand-name-logo {
+    display: inline-block;
+}
+
+.brand-name {
+    text-align: center;
+}
+
+.brand-logo {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#social-media {
+    padding: 48px 140px;
+    background-color: #72A0C1;
+    color: white;
+}
+
+.social-media-header {
+    font-size: 30px;
+}
