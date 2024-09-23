@@ -1,7 +1,30 @@
-#about-question {
+#about-top {
     background-color: #80B9AD;
     padding: 48px 140px;
-    font-size: 36px;
+    display: flex;
+}
+
+.about-question {
+    display: inline-block;
+    width: 45%;
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.about-top-header {
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.about-image {
+    display: inline-block;
+    width: 55%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 6px;
 }
 
 #infographic {
@@ -103,6 +126,10 @@
 
 .brands-header {
     font-size: 30px;
+}
+
+.brands-button-margin {
+    margin-top: 24px;
 }
 
 .brands-we-work-with {
