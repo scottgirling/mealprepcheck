@@ -64,6 +64,18 @@
     color: black;
 }
 
+#angle-up {
+    display: none;
+}
+
+.accordion.active #angle-down {
+    display: none;
+}
+
+.accordion.active #angle-up {
+    display: inline;
+}
+
 #more-faqs {
     padding-bottom: 64px;
     text-align: center;
